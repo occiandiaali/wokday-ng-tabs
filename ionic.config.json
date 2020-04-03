@@ -1,0 +1,7 @@
+{
+  "name": "wokDay",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
