@@ -1,0 +1,56 @@
+{
+    "werkers" : [
+    {
+        "name": "Camson Agbolade",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/03/31/05/41/phone-4986359_960_720.jpg",
+        "skill" : "electrician",
+        "location": {
+            "long": 3.4128,
+            "lat": 6.6790
+        },
+        "phone": "08034096604"
+        
+    },
+    {
+        "name": "Bobbi Benji",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/03/31/05/41/phone-4986359_960_720.jpg",
+        "skill" : "electrician",
+        "location": {
+            "long": 3.4328,
+            "lat": 6.6590
+        },
+        "phone": "08034096604"
+        
+    },
+    {
+        "name": "Shakiru Johnson",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/03/31/05/41/phone-4986359_960_720.jpg",
+        "skill" : "mechanic",
+        "location": {
+            "long": 3.4258,
+            "lat": 6.6690
+        },
+        "phone": "08034096604"
+    },
+    {
+        "name": "Helen Nnamdi",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/03/31/05/41/phone-4986359_960_720.jpg",
+        "skill" : "generator technician",
+        "location": {
+            "long": 3.4278,
+            "lat": 6.6930
+        },
+        "phone": "08034096604"
+    },
+    {
+        "name": "Mary Amaka",
+        "imageUrl": "https://cdn.pixabay.com/photo/2020/03/31/05/41/phone-4986359_960_720.jpg",
+        "skill" : "plumber",
+        "location": {
+            "long": 3.4458,
+            "lat": 6.6590
+        },
+        "phone": "08034096604"
+    }
+    ]
+ }

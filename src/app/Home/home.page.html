@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title class="ion-text-center app-title">
+      Wok Day
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" id="home-bg">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">WokDay</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card class="ion-text-center">
+    <img src="https://cdn.pixabay.com/photo/2017/08/30/12/45/girl-2696947_960_720.jpg" alt="user" id="user-img"/>
+    <ion-card-header>
+      <ion-card-title><strong>Welcome, Jim Iyke</strong></ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the Wisconsin
+      Territory in 1836.
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-list>
+    <ion-card class="cat-card">
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="https://cdn.pixabay.com/photo/2017/07/20/18/34/plumber-2523231_960_720.png" alt="plumber">
+      </ion-avatar>
+      <ion-label>
+        <h2>Plumbers</h2>
+        <p>Listen, I've had a pretty messed up day...</p>
+      </ion-label>
+    </ion-item>
+    </ion-card>
+
+    <ion-card class="cat-card">
+      <ion-item>
+        <ion-avatar slot="start">
+          <img src="https://cdn.pixabay.com/photo/2018/09/12/07/40/car-mechanic-3671448_960_720.png" alt="mechanic">
+        </ion-avatar>
+        <ion-label>
+          <h2>Mechanics</h2>
+          <p>Listen, I've had a pretty messed up day...</p>
+        </ion-label>
+      </ion-item>
+      </ion-card>
+
+      <ion-card class="cat-card">
+        <ion-item>
+          <ion-avatar slot="start">
+            <img src="https://cdn.pixabay.com/photo/2015/12/07/10/53/electrician-1080573_960_720.jpg" alt="electrician">
+          </ion-avatar>
+          <ion-label>
+            <h2>Electricians</h2>
+            <p>Listen, I've had a pretty messed up day...</p>
+          </ion-label>
+        </ion-item>
+        </ion-card>
+  </ion-list>
+
+  <!-- <app-explore-container name="Home page"></app-explore-container> -->
+</ion-content>

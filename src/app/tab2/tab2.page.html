@@ -1,8 +1,15 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-item color="primary">
+      <ion-label>Search for?</ion-label>
+      <ion-select [value]="category" ok-text="Find" cancel-text="Cancel" [(ngModel)]="category" (ionChange)="showSelected()">
+        <ion-select-option value="plumber">Plumber</ion-select-option>
+        <ion-select-option value="electrician">Electrician</ion-select-option>
+        <ion-select-option value="gen technician">Gen technician</ion-select-option>
+        <ion-select-option value="a/c technician">A/C technician</ion-select-option>
+        <ion-select-option value="mechanic">Mechanic</ion-select-option>
+      </ion-select>
+    </ion-item>
   </ion-toolbar>
 </ion-header>
 
@@ -12,6 +19,6 @@
       <ion-title size="large">Tab 2</ion-title>
     </ion-toolbar>
   </ion-header>
-
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+<div id="mapid"></div>
+  <!-- <app-explore-container name="Tab 2 page"></app-explore-container> -->
 </ion-content>
